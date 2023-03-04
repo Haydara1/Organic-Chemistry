@@ -3,16 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Organic_Chemistry.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+    <Grid Padding="30,0"
+              VerticalOptions="FillAndExpand">
 
             <Label Text="Organic Chemistry"
-                   FontSize="Header"/>
+                   FontSize="Header"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Center"/>
 
-        </VerticalStackLayout>
-    </ScrollView>
+            <VerticalStackLayout VerticalOptions="Center"
+                                 Spacing="25">
+                <Button x:Name="CreateCmpBtn"
+                    Text="Create new compound"
+                    HorizontalOptions="Center"
+                    FontSize="Title"/>
+
+                <Button Text="Merge existing compounds"
+                    HorizontalOptions="Center"
+                    FontSize="Title"/>
+
+                <Button Text="Saved compounds"
+                    HorizontalOptions="Center"
+                    FontSize="Title"/>
+            </VerticalStackLayout>
+            
+
+    </Grid>
+    
 
 </ContentPage>

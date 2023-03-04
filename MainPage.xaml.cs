@@ -2,13 +2,15 @@
 
 public partial class MainPage : ContentPage
 {
-	int count = 0;
+	
 
 	public MainPage()
 	{
 		InitializeComponent();
+
+		CreateCmpBtn.Pressed += async (s, e) => await Shell.Current.GoToAsync("CreatePage");
 	}
 
-	
+    
 }
 
