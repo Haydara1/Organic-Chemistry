@@ -10,5 +10,6 @@
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
     <FlyoutItem Route="CharacteristicGroup"/>
+    <FlyoutItem Route="CreatePage"/>
 
 </Shell>

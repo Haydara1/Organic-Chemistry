@@ -8,7 +8,7 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 
-		CreateCmpBtn.Pressed += async (s, e) => await Shell.Current.GoToAsync("CreatePage");
+		CreateCmpBtn.Pressed += async (s, e) => await Shell.Current.GoToAsync("CharacteristicGroup");
 	}
 
     
