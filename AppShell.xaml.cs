@@ -5,6 +5,6 @@ public partial class AppShell : Shell
 	public AppShell()
 	{
 		InitializeComponent();
-		Routing.RegisterRoute("CreatePage", typeof(Organic_Chemistry.CreatePage));
+		Routing.RegisterRoute("CharacteristicGroup", typeof(Organic_Chemistry.CharacteristicGroup));
 	}
 }
