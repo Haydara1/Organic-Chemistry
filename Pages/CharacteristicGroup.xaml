@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Organic_Chemistry.CharacteristicGroup">
+    
+    <ScrollView Orientation="Vertical">
+        <VerticalStackLayout Spacing="25"
+                             Padding="30, 0">
+            <Label Text="Choose the characteristic group"
+                   HorizontalOptions="Center"
+                   FontSize="Title"/>
+
+            <HorizontalStackLayout HorizontalOptions="Center"
+                                   Spacing="30">
+                <Label Text="Acid Halide: " VerticalOptions="Center"
+                       FontAttributes="Bold"/>
+                <ImageButton Source="acid_halide.png"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center"
+                                   Spacing="30">
+                <Label Text="Alcohol: " VerticalOptions="Center"
+                       FontAttributes="Bold"/>
+                <ImageButton Source="alcohol.png"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center"
+                                   Spacing="30">
+                <Label Text="Aldehyde: " VerticalOptions="Center"
+                       FontAttributes="Bold"/>
+                <ImageButton Source="aldehyde.png"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center"
+                                   Spacing="30">
+                <Label Text="Amide: " VerticalOptions="Center"
+                       FontAttributes="Bold"/>
+                <ImageButton Source="amide.png"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center"
+                                   Spacing="30">
+                <Label Text="Amine: " VerticalOptions="Center"
+                       FontAttributes="Bold"/>
+                <ImageButton Source="amine.png"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center"
+                                   Spacing="30">
+                <Label Text="Carboxylic Acid: " VerticalOptions="Center"
+                       FontAttributes="Bold"/>
+                <ImageButton Source="carboxylic_acid.png"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center"
+                                   Spacing="30">
+                <Label Text="Ester: " VerticalOptions="Center"
+                       FontAttributes="Bold"/>
+                <ImageButton Source="ester.png"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center"
+                                   Spacing="30">
+                <Label Text="Ketone: " VerticalOptions="Center"
+                       FontAttributes="Bold"/>
+                <ImageButton Source="ketone.png"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center"
+                                   Spacing="30">
+                <Label Text="Nitrile: " VerticalOptions="Center"
+                       FontAttributes="Bold"/>
+                <ImageButton Source="nitrile.png"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center"
+                                   Spacing="30">
+                <Label Text="Sulfonic Acid: " VerticalOptions="Center"
+                       FontAttributes="Bold"/>
+                <ImageButton Source="sulfonic_acid.png"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center"
+                                   Spacing="30">
+                <Label Text="Thiol: " VerticalOptions="Center"
+                       FontAttributes="Bold"/>
+                <ImageButton Source="thiol.png"/>
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
